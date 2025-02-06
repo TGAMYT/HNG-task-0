@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Jose', sans-serif;
+}
+
+body{
+  display: flex;  background-color: grey;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: row;
+}
+
+.main-body{
+    display: flex;
+    background-color: white;
+    width: 50%;
+    height: 50%;    
+    border-radius: 19px;overflow: hidden;
+
+}
+
+.profile-pic{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(204, 112, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic{
+    display: flex;
+    width: 50%;
+    height: 48%;
+    border-radius: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 100%;
+}
+
+.info{
+    padding: 10px;
+    width: 55%;
+
+}
+
+.info > h1{
+    
+    font-weight: lighter;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.info  P{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.short-bio{
+    font-family: 'lexy', sans-serif;
+    font-weight: 145;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6px;
+}
+
+.socials img {
+    width: 30px;
+}
+
+@font-face {
+    font-family: 'Jose';
+    src: url('./fonts/JosefinSans-Light.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'lexy';
+    src: url('./fonts/LexendDeca-VariableFont_wght.ttf') format('truetype');
+  }
